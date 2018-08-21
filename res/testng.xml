@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="支付收银台接口：cashierGetCardList" parallel="false" thread-count="1">
+
+    <test name="可用卡列表">
+        <classes>
+            <class name="com.chenlei.autotest.testcase.friend.bisRelationship.TestHasmore"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.chenlei.autotest.utils.TestNGSimpleReport"/>
+        <listener class-name="com.chenlei.autotest.utils.TestNGListener"/>
+    </listeners>
+
+</suite>

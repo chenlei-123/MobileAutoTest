@@ -1,0 +1,38 @@
+{
+  "error": {
+    "returnCode": 0,
+    "returnMessage": "操作成功！",
+    "returnUserMessage": "操作成功！"
+  },
+  "data": {
+    "memberID": "558325089081602776",
+    "avatarUrl": null,
+    "thumbnailUrl": null,
+    "hasMore": "0",
+    "version": 0,
+    "canNotAddTagTip": null,
+    "title": null,
+    "friendList": [{
+      "memberID": "535413146867696096",
+      "memberName": "美丽",
+      "mobile": "135****6155",
+      "level": "0",
+      "avatarUrl": "http://jdbserver.b0.upaiyun.com/images/53541462064885251",
+      "thumbnailUrl": "http://jdbserver.b0.upaiyun.com/images/53541462064885251!percent25",
+      "type": 0,
+      "valiableFlag": null,
+      "remark": null,
+      "source": 7,
+      "action": 0,
+      "allowWatchMe": 0,
+      "watchHim": 0,
+      "remarkName": null,
+      "identificationStatus": "1",
+      "canAddTag": 0,
+      "tagList": null,
+      "createTime": 0,
+      "content": "51位共同好友"
+    }],
+    "companyFriendList": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "error": {
+    "returnCode": "0",
+    "returnMessage": "success",
+    "returnUserMessage": "success"
+  },
+  "data": {
+    "title": "贷款超市",
+    "details": [
+      {
+        "showCount": "0",//不弹窗
+        "startTime": 1510502400,
+        "endTime": 1510502400,//时间过期
+        "actionID": "1101",
+        "imgs": [
+          {
+            "imgUrl": "http://jdbopt.b0.upaiyun.com/dmp/20171113104414/0d2f02.png",
+            "jumpUrl": "jdbclient://message/activity/index?id=2402&tzydchannel=push"
+          }
+        ]
+      }
+    ]
+  }
+}
