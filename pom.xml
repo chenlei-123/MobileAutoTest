@@ -33,7 +33,6 @@
             <systemPath>${basedir}/lib/velocity-1.7-dep.jar</systemPath>
             <scope>system</scope>
         </dependency>
-
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -41,13 +40,11 @@
             <systemPath>${basedir}/lib/testng-6.9.9.jar</systemPath>
             <scope>system</scope>
         </dependency>
-
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.3.1</version>
         </dependency>
-
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
@@ -58,8 +55,6 @@
             <artifactId>log4j</artifactId>
             <version>1.2.12</version>
         </dependency>
-
-
         <dependency>
             <groupId>org.uncommons</groupId>
             <artifactId>reportng</artifactId>

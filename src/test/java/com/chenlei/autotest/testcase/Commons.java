@@ -1,8 +1,8 @@
 package com.chenlei.autotest.testcase;
 
-import com.rrh.faulttolerant.android.friend.basic.BasicAction;
-import com.rrh.faulttolerant.android.friend.component.HelperClassException;
-import com.rrh.faulttolerant.android.friend.component.TestHelper;
+import com.chenlei.autotest.basic.BasicAction;
+import com.chenlei.autotest.component.HelperClassException;
+import com.chenlei.autotest.component.TestHelper;
 import io.appium.java_client.android.AndroidDriver;
 
 import java.io.IOException;

@@ -41,6 +41,8 @@ public class ScreenShot {
         File file = new File(URL);
         System.setProperty("org.uncommons.reportng.escape-output", "false");
 
+        System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","sandbox; img-src 'self'; style-src 'self';");
+
 //        String absolute = file.getAbsolutePath();
 //        int beginIndex = absolute.indexOf(".");
 //        String relative = absolute.substring(beginIndex).replace(".\\", "");

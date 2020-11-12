@@ -39,10 +39,10 @@ public class AppiumHelper {
         capabilities.setCapability("noSign","True");
         capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
         capabilities.setCapability(CapabilityType.PLATFORM, "Android");
-        capabilities.setCapability("deviceName", "0af9a48503924f2c");
-        capabilities.setCapability("platformVersion", "6.0.1");
-        capabilities.setCapability("appPackage", "com.rrh.jdb");
-        capabilities.setCapability("appActivity", ".newmodule.tab.maintab.JDBLaunchActivity");
+        capabilities.setCapability("deviceName", "QLXBBBA652502759");
+        capabilities.setCapability("platformVersion", "5.1");
+        capabilities.setCapability("appPackage", "com.rong360.ybfq");
+        capabilities.setCapability("appActivity", ".app.SplashActivity");
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         return driver;
